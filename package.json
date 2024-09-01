@@ -1,0 +1,27 @@
+{
+  "name": "capturapantallanode",
+  "version": "1.0.0",
+  "description": "captura la pantalla cada dos segundos en la ruta /img",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "screenshot-desktop": "^1.15.0"
+  },
+  "bin": {
+    "capturapantallanode": "index.js"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "assets": [],
+    "targets": [
+      "node18-linux-x64",
+      "node18-macos-x64",
+      "node18-win-x64"
+    ]
+  }
+}
