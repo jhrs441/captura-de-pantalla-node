@@ -3,7 +3,7 @@ const path = require('path');
 const screenshot = require('screenshot-desktop');
 
 console.log('Servidor => Captura de pantalla')
-
+//local
 // Verificar y crear la carpeta 'screenshot/img' si no existe
 const dir = path.join(process.cwd(), 'screenshot', 'img');
 if (!fs.existsSync(dir)) {
